@@ -1,0 +1,148 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  height: auto;
+}
+body.login {
+  background: #0288b1;
+  font-family: calibri;
+  font-size: 18px;
+}
+h1 {
+  text-align: center;
+}
+.login h1 {
+  margin-top: 10%;
+  color: white;
+  text-decoration: underline;
+}
+.login-wrapper {
+  display: block;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.26);
+  margin: 36px;
+  padding: 18px;
+  text-align: center;
+  background: white;
+}
+md-card {
+  background: #fff;
+  max-height: 300px;
+  width: 900px;
+}
+md-card .md-card-image {
+  width: 50px; height:50px;
+}
+.dynamicTabs md-tabs .md-view {
+  background: #EEE;
+}
+.dynamicTabs .tab-text {
+  margin-bottom: 32px;
+}
+.dynamicTabs .md-button {
+  display: block;
+}
+.dynamicTabs .tab1 {
+  min-height: 650px;
+  background-image: url(../images/tab1.png);
+  background-position: left 40px;
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-color: #C0DEED;
+}
+.dynamicTabs .tab2 {
+  min-height: 650px;
+  background-image: url(../images/tab2.jpg);
+  background-position: left 40px;
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-color: #000;
+}
+.dynamicTabs .tab3 {
+  min-height: 650px;
+  background-image: url(../images/tab3.jpg);
+  background-position: left 40px;
+  background-repeat: repeat;
+  background-color: #C0DEED;
+}
+.dynamicTabs .tab4 {
+  min-height: 650px;
+  background-image: url(../images/tab4.png);
+  background-position: left 40px;
+  background-repeat: repeat;
+  background-repeat: no-repeat;
+  background-color: #C0DEED;
+}
+.dynamicTabs .title {
+  padding-top: 8px;
+  padding-right: 8px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #888;
+  margin-top: 24px;
+}
+.dynamicTabs [layout-align] > * {
+  margin-left: 8px;
+}
+.dynamicTabs form > [layout] > * {
+  margin-left: 8px;
+}
+.dynamicTabs .long > input {
+  width: 264px;
+}
+.dynamicTabs .md-button {
+  max-height: 30px;
+}
+.dynamicTabs .md-button.add-tab {
+  margin-top: 20px;
+  max-height: 30px !important;
+}
+#top-bar {
+  background: #03a9f4; /* Digg Blue */
+  min-height: 70px;
+  padding: 0 10px;
+  font-size: 1.3em;
+  font-weight: bold;
+  }
+  #right-side {
+      padding-top: 26px;
+      font-family: 'Lucida Console', 'Lucida Sans Typewriter', monaco, 'Bitstream Vera Sans Mono', monospace;
+      font-size: 36px;
+      font-style: no;
+      font-variant: bold;
+      font-weight: bold;
+      line-height: 26.3999996185303px;
+      color: #AEF0DC;
+      margin-left: 229px;
+    }
+    #right-side img {
+      border: 1px solid white;
+      vertical-align: middle;
+    }
+    #right-side a {
+      color: white;
+      border-left: 1px solid white;
+      height: 10px;
+      padding-left: 10px;
+      }
+      #right-side a.first {
+        border: none;
+        padding: 0;
+      }
+      form#main-search {
+        display: inline;
+        position: relative;
+        padding-right: 10px;
+        }
+        form#main-search label {
+          display: none;
+        }
+        #search-button {
+          position: absolute;
+          right: 0px;
+          top: -6px;
+        }
+.floatleft { float: left; position: absolute;}
+.createdAt { color: rgba(176, 169, 169, 0.73);}
