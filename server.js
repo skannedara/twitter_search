@@ -4,6 +4,7 @@ var server = require('http').Server(app);
 var path = require('path');
 var io = require('socket.io')(server);
 var Twit = require('twit');
+var sslRootCAs = require('ssl-root-cas'); 
 var searches = {};
 
 var T = new Twit({
@@ -13,6 +14,7 @@ var T = new Twit({
   access_token_secret: 'jKK6dxMmQRcKsNACdBhCGJRUAyIJ39QycJBbNKa19Kv4z'
 });
 
+sslRootCAs.inject()//Setup rotuing for app
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function(req, res) {

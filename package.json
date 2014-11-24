@@ -1,5 +1,5 @@
 {
-  "name": "ngTwitterApp",
+  "name": "twiiter_search",
   "version": "0.1.0",
   "description": "Angularjs, Material Design and Twitter Streams - A Twitter Live Search App",
   "main": "server.js",
@@ -11,6 +11,7 @@
   "dependencies": {
     "express": "^4.10.1",
     "socket.io": "^1.2.0",
-    "twit": "^1.1.18"
+    "twit": "^1.1.18",
+    "ssl-root-cas": "*"
   }
 }
