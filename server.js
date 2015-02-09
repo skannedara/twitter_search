@@ -4,7 +4,7 @@ var server = require('http').Server(app);
 var path = require('path');
 var io = require('socket.io')(server);
 var Twit = require('twit');
-var sslRootCAs = require('ssl-root-cas'); 
+var sslRootCAs = require('ssl-root-cas/latest'); 
 var searches = {};
 
 var T = new Twit({
